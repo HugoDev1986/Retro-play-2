@@ -96,18 +96,26 @@ header {
 .cerrar-menu {
     display: none;
 }
-.titulo-principal-banner{
-    margin-top: 3rem;
+.titulo_principal{
+    color: #fff;
 }
+.titulo-principal-banner {
+    margin-top: 4rem;
+    color: #fff;
+}
+
 .banner-principal {
     margin-top: 0;
 }
+
 .img-pagina {
     max-width: 400px;
 }
-.banner{
+
+.banner {
     margin-top: 6rem;
 }
+
 .img-banner {
     max-width: 900px;
     border-radius: 6px;
@@ -120,8 +128,9 @@ header {
 }
 
 .descripcion-card {
-    margin:0;
+    margin: 0;
 }
+
 .descripcion-card-titulo {
     margin: 15px 0;
     font-size: 20px;
@@ -161,6 +170,37 @@ footer ul li a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 576px){
-             
+@media screen and (max-width: 576px) {
+    p {
+        font-size: 18px;
+    }
+    h2 {
+        color: #fff;
+        font-size: 25px;
+    }
+    .img-banner {
+        margin-top: 10px;
+    }
+
+    .banner-parrafo {
+        margin-top: 0;
+    }
+    .titulo_principal{
+        color: #fff;
+        font-size: 25px;
+        text-align: center;
+    }
+    .descripcion-card-titulo {
+        font-size: 15px;
+    }
+    .boton {
+        font-size: 15px;
+    }
+    .boton-radius {
+        font-size: 15px ;
+    }
+    .titulo_principal-emulador {
+        font-size: 5px;
+        color: #fff;
+    }
 }

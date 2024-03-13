@@ -16,10 +16,8 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
   --fuente: "IBM Plex Mono", monospace;
   --fondo: #000;
   --ancho: 1200px;
-  --texto: #fff
-  ;
+  --texto: #008BD1;
   --boton: #641ee7;
-
 }
 
 /*======================
@@ -220,7 +218,7 @@ h1,h2,h3,h4,h5,h6 {
 .boton:hover {
     background: #fff;
     color: #000;
-    transform: scale(1.1);
+    transform: sac;
 }
 
 .boton.verde {
