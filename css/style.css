@@ -96,19 +96,71 @@ header {
 .cerrar-menu {
     display: none;
 }
-.img-pagina{
+.titulo-principal-banner{
+    margin-top: 3rem;
+}
+.banner-principal {
+    margin-top: 0;
+}
+.img-pagina {
     max-width: 400px;
 }
-
+.banner{
+    margin-top: 6rem;
+}
 .img-banner {
     max-width: 900px;
     border-radius: 6px;
+    margin-top: 5.9rem;
 }
+
 .img-juegos {
     border: solid #ffff 3px;
     border-radius: 6px;
 }
 
-.banner-emulador{
-    background-color:  #f3f3f3 ;
+.descripcion-card {
+    margin:0;
+}
+.descripcion-card-titulo {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.banner-emulador {
+    background-color: #f3f3f3;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 576px){
+             
 }

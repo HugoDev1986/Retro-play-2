@@ -214,11 +214,13 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     line-height: 22px;
     transition: .3s ease all;
+    margin: 3px;
 }
 
 .boton:hover {
     background: #fff;
     color: #000;
+    transform: scale(1.1);
 }
 
 .boton.verde {
@@ -230,13 +232,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .boton-radius {
-    background: #641ee7;
+    background: #2a056f;
     border: none;
     cursor: pointer;
     color: #fff;
     display: inline-block;
-    padding: 10px 15px;
-    border-radius: 15px;
+    padding: 5px 15px;
+    border-radius: 4px;
     text-align: center;
     line-height: 22px;
     transition: .3s ease all;
