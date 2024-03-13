@@ -21,7 +21,6 @@ html {
     .cerrar-menu {
         color: #ececec;
     }
-
     .nav {
         opacity: 0;
         visibility: hidden;
@@ -96,9 +95,11 @@ header {
 .cerrar-menu {
     display: none;
 }
-.titulo_principal{
+
+.titulo_principal {
     color: #fff;
 }
+
 .titulo-principal-banner {
     margin-top: 4rem;
     color: #fff;
@@ -108,9 +109,6 @@ header {
     margin-top: 0;
 }
 
-.img-pagina {
-    max-width: 400px;
-}
 
 .banner {
     margin-top: 6rem;
@@ -134,10 +132,6 @@ header {
 .descripcion-card-titulo {
     margin: 15px 0;
     font-size: 20px;
-}
-
-.banner-emulador {
-    background-color: #f3f3f3;
 }
 
 footer {
@@ -167,17 +161,20 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #008BD1;
 }
 
 @media screen and (max-width: 576px) {
     p {
-        font-size: 18px;
+        font-size: 14px;
     }
+
     h2 {
         color: #fff;
         font-size: 25px;
     }
+
     .img-banner {
         margin-top: 10px;
     }
@@ -185,22 +182,33 @@ footer ul li a:hover {
     .banner-parrafo {
         margin-top: 0;
     }
-    .titulo_principal{
+
+    .titulo_principal {
         color: #fff;
         font-size: 25px;
         text-align: center;
     }
+
+    .card {
+        transition: none;
+    }
+
     .descripcion-card-titulo {
+
         font-size: 15px;
     }
+
+    .descripcion-card p {
+        font-size: 14px;
+        margin: 5px 2px 3px;
+    }
+
     .boton {
-        font-size: 15px;
+        font-size: 13px;
     }
+
     .boton-radius {
-        font-size: 15px ;
+        font-size: 13px;
     }
-    .titulo_principal-emulador {
-        font-size: 5px;
-        color: #fff;
-    }
+
 }
